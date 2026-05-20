@@ -1,17 +1,12 @@
 import { useState } from 'react'
+import Propina from "./components/Propina";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-     <div>
-      <h1>Hola React</h1>
-      <p>Contador: {count}</p>
-      <button onClick={() => setCount(count + 1)}>
-        Aumentar
-      </button>
-    </div>
-  )
+    <>
+      <Propina />
+    </>
+  );
 }
 
-export default App
+export default App;
