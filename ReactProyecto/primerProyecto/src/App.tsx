@@ -1,10 +1,9 @@
-import { useState } from 'react'
-import Propina from "./components/Propina";
+import Contador from "./components/Contador";
 
 function App() {
   return (
     <>
-      <Propina />
+      <Contador />
     </>
   );
 }
