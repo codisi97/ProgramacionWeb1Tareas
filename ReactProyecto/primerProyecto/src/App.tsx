@@ -1,9 +1,9 @@
-import Contador from "./components/Contador";
+import Contacto from "./components/Contacto";
 
 function App() {
   return (
     <>
-      <Contador />
+      <Contacto />
     </>
   );
 }
