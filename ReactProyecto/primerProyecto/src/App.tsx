@@ -1,9 +1,10 @@
-import Contador from "./components/Contador";
+
+import Registro from "./components/Registro";
 
 function App() {
   return (
     <>
-      <Contador />
+      < Registro/>
     </>
   );
 }
