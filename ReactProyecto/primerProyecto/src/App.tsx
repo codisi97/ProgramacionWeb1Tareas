@@ -1,12 +1,7 @@
-
-import Registro from "./components/Registro";
+import { GestorProductos } from "./components/GestorProductos";
 
 function App() {
-  return (
-    <>
-      < Registro/>
-    </>
-  );
+  return <GestorProductos />;
 }
 
 export default App;
